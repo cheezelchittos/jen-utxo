@@ -1,0 +1,40 @@
+Menjawab pertanyaan Adi Chik II Adi Chik II ...merkle tree dalam bahasa pasar....
+
+Bayangkan satu pokok pine, pucuk atas dia ada satu daun, makin turun bawah makin merebak daun daun dia melebar membentuk segitiga...
+
+Sama macam salasilah keluarga, katakan satu nama di atas adalah moyang kepada moyang kepada moyang... salasilah keluarga akan menurun menjadi semakin ramai mengembang sehinggalah generasi sekarang...jadi bila kita mention satu nama iaitu orang paling atas dalam salasilah keluarga tu, semua yang keturunan dia bawah2 dah tetap siapa orang2 nya...kalau ada sesiapa cuba mengubah dengan menambah seorang cicit pada lapisan tertentu dalam salasilah, nama moyang paling atas tu akan berubah....bererti, sekali nama moyang paling atas tu dah dicipta, susur galur bawah2 dia dah tetap, tak boleh di tampered....
+
+Dalam cryptography, mekle tree digunapakai untuk menyimpan data. Tujuan dia adalah untuk simplify blockchain data & memastikan security dalam network.
+
+ Saya pakai contoh block bitcoin 856440 ni,
+
+Ada 2284 total transaction dalam satu block ni...
+Merkle root diberi adalah seperti ini :
+ 207ad51f6c1150f63fcd043eb1b4624b77ac70558594317e989c1109fbb47c47
+
+Dia berformat SHA-256.
+
+Nombor ini mewakili 2284 hash lain yang ada di bawahnya...1 hash mewakili satu transaksi...jadi bayangkan pokok pine, daun di atas bernama
+
+207ad51f6c1150f63fcd043eb1b4624b77ac70558594317e989c1109fbb47c47
+
+Dan sampai layer paling bawah pokok pine tu, ada 2284 hashes lain....
+
+Sekali merkle root ini sudah digenerate, 2284 transaksi ada bawah dia dah jadi immutable, tidak boleh diubah....
+
+Lebih kurang begitulah cerita merkle root dalam bitcoin. dalam layman's term...dan juga beberapa projek lain yang menggunakan konsep merkle root.... ethereum juga
+
+Pencipta merkle ni anda boleh cari la sendiri ya....bangsa yang paling gemar hidden code ni tak lain tak bukan Yabedabedu, dia buka seorang, dia melibatkan beberapa figerua....Saya taknak cerita di sini, taknak melukai hati Leman....
+
+Leman dan layman's term 2 individu tak sama....
+
+Jadi dalam satu block bitcoin, bila sebut saja merkle root
+ 207ad51f6c1150f63fcd043eb1b4624b77ac70558594317e989c1109fbb47c47
+
+Dah boleh tahu apa 2284 transaction punya hashes ada di bawah....no one can adjust it (orang biasa kata)
+
+Saya kata - orang yang pegang kunci dia boleh adjust
+
+Love you leman ❤️❤️❤️
+
+Jen
